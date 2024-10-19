@@ -1,0 +1,42 @@
+body
+{ 
+font-family: Arial, sans-serif;
+background-color: #f4f4f4; 
+}
+.container 
+{ 
+width: 90%; 
+max-width: 1200px;
+margin: 0 auto; 
+}
+.header 
+{ 
+text-align: center;
+padding: 20px; 
+}
+.controller-preview 
+{ 
+text-align: center;
+}
+img
+{ 
+width: 300px; 
+height: auto;
+ }
+.options 
+{ 
+display: flex; 
+justify-content: space-around; 
+margin: 20px 0;
+}
+.option-group 
+{ 
+padding: 20px;
+background-color: #fff;
+border-radius: 10px;
+}
+label, select 
+{ 
+display: block;
+margin: 10px 0;
+}

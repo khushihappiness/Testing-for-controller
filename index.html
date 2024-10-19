@@ -1,0 +1,64 @@
+
+<html>
+<head>
+  
+    <title>Custom PS5 Controller</title>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="style/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="style/all.min.css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="style/slick.css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="style/animate.css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="style/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Customize Your PS5 Controller</h1>
+            <p>Select options below to customize your controller!</p>
+        </div>
+        
+        <!-- 3D Canvas for Controller -->
+        <canvas id="controllerCanvas"></canvas>
+
+        <!-- Customization Options -->
+        <div class="options">
+            <div class="option-group">
+                <label for="front-shell">Front Shell</label>
+                <select id="front-shell">
+                    <option value="#ffffff">White</option>
+                    <option value="#000000">Black</option>
+                    <option value="#1e90ff">Blue</option>
+                </select>
+            </div>
+
+            <div class="option-group">
+                <label for="button-color">Button Color</label>
+                <select id="button-color">
+                    <option value="#ffffff">White</option>
+                    <option value="#ff0000">Red</option>
+                    <option value="#00ff00">Green</option>
+                </select>
+            </div>
+
+            <div class="option-group">
+                <label for="thumbstick">Thumbstick Style</label>
+                <select id="thumbstick">
+                    <option value="standard">Standard</option>
+                    <option value="pro">Pro</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
